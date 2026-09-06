@@ -1,0 +1,95 @@
+# ========== UNITY PROJECT ==========
+# Carpetas que Unity genera automáticamente
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+UserSettings/
+
+# Asset Store
+Assets/AssetStoreTools*
+
+# Archivos de crash, debug y perfiles
+*.stacktrace
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# VS / Rider / VSCode auto-generados
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+.vscode/
+.idea/
+
+# Addressables y cache
+[Aa]ddressable[Aa]ssets[Dd]ata*/
+Assets/StreamingAssets/aa.meta
+Assets/StreamingAssets/aa/*
+
+# Unity Collaborate
+.collab/
+
+# ========== BUILDS ==========
+# Windows
+*.exe
+*.exe.meta
+*.dll
+*.dll.meta
+
+# macOS
+*.app
+*.app.meta
+
+# Linux
+*.x86
+*.x86_64
+*.x86_64.meta
+
+# Android
+*.apk
+*.aab
+.gradle/
+*.gradle/
+*.keystore
+*.jks
+
+# iOS
+*.xcodeproj/
+*.xcworkspace/
+DerivedData/
+*.xcuserstate
+*.xcuserdata/
+
+# ========== SISTEMA ==========
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ========== OTROS ==========
+# Archivos de Unity Cloud Build
+[Uu]ser[Ll]ocal/
+sysinfo.txt
+
+# Archivos temporales
+*.tmp
+*.bak
+*.swp
+*.lock
