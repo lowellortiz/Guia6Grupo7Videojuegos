@@ -66,5 +66,5 @@
     "explorer.fileNesting.patterns": {
         "*.sln": "*.csproj"
     },
-    "dotnet.defaultSolution": "Unity3DSockets.slnx"
+    "dotnet.defaultSolution": "Guia6Grupo7Videojuegos.slnx"
 }

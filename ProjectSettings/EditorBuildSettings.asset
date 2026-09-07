@@ -6,17 +6,20 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
+    path: Assets/Scenes/SocketWorld3D_Server.unity
+    guid: 956e0f2b0ee639647881466a277f1bbe
+  - enabled: 1
+    path: Assets/Scenes/SocketController_Client3D.unity
+    guid: 3d8102ca66ed2a74692fde12a31af065
+  - enabled: 0
     path: Assets/Scenes/SocketWorld_Server.unity
     guid: f9d7d10d76854190bfe5809f4c5fad50
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SocketController_Client.unity
     guid: 77686d5b014b48a8ba9740cbbe764e26
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
-  - enabled: 1
-    path: Assets/Scenes/SocketWorld3D_Server.unity
-    guid: 956e0f2b0ee639647881466a277f1bbe
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

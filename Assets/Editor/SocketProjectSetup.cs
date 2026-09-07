@@ -5,10 +5,13 @@ using UnityEngine;
 
 /// <summary>
 /// Utilidades de editor para dejar el proyecto listo para compilar los dos perfiles
-/// (servidor y cliente) del chat por sockets.
+/// (servidor y cliente) del control remoto 3D por sockets.
+///
+/// Las escenas validas de la guia son las 3D. Las escenas del chat original
+/// (SocketWorld_Server / SocketController_Client) quedan en el repo solo como referencia.
 ///
 /// Menu: Tools > Sockets
-/// - "Configurar Build Settings": registra SocketWorld_Server y SocketController_Client
+/// - "Configurar Build Settings": registra SocketWorld3D_Server y SocketController_Client3D
 ///   en File > Build Settings (Scenes In Build) y deja SampleScene desactivada.
 /// - "Solo servidor" / "Solo cliente": deja habilitada unicamente la escena del perfil
 ///   que vas a compilar, para que el build arranque en ella.
@@ -16,8 +19,8 @@ using UnityEngine;
 /// </summary>
 public static class SocketProjectSetup
 {
-    private const string ServerScene = "Assets/Scenes/SocketWorld_Server.unity";
-    private const string ClientScene = "Assets/Scenes/SocketController_Client.unity";
+    private const string ServerScene = "Assets/Scenes/SocketWorld3D_Server.unity";
+    private const string ClientScene = "Assets/Scenes/SocketController_Client3D.unity";
     private const string SampleScene = "Assets/Scenes/SampleScene.unity";
 
     [MenuItem("Tools/Sockets/Configurar Build Settings", priority = 0)]
